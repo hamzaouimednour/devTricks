@@ -10,6 +10,11 @@ git clone https://<user>:<token>@github.com/<repository>
 git commit --amend
 # changing latest commit without changing its message
 git commit --amend --no-edit
+
+# delete the most recent commit + destroying the work you've done
+git reset --hard HEAD~1
+# local commits are not pushed on the remote server
+git cherry -v
 ```
 
 # Merge
