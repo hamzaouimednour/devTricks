@@ -45,12 +45,12 @@ git stash -a
 ```bash
 # list of stashes
 git stash list
+# re-apply previous stash (witohut removing changes from stash)
+git stash apply
 # show stashed files
 git stash show
 # re-apply previous stash
 git stash pop
-# re-apply previous stash (witohut removing changes from stash)
-git stash apply
 # re-apply specific stash
 git stash pop stash@{2}
 ```
