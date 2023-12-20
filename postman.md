@@ -1,0 +1,1 @@
+- [Script References: variables-list](https://learning.postman.com/docs/writing-scripts/script-references/variables-list/)
